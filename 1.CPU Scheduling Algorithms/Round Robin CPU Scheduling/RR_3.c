@@ -17,22 +17,7 @@ void findWaitingTime(int processes[], int n,
         {
             if (rem_bt[i] > 0)
             {
-                done = false;
-
-                if (rem_bt[i] > quantum)
-                {                     t += quantum;
-
-                    rem_bt[i] -= quantum;
-                }
-
-
-                else
-                {
-                    t = t + rem_bt[i];
-                    wt[i] = t - bt[i];
-                    rem_bt[i] = 0;
-                }
-            }
+                
         }
         if (done == true)
           break;
