@@ -23,6 +23,7 @@ void findavgTime( int processes[], int n, int bt[])
 	findTurnAroundTime(processes, n, bt, wt, tat);
 
 	printf("Processes Burst time Waiting time Turn around time\n");
+	printf("to be hdeleted");
 
 	for (int i=0; i<n; i++)
 	{
