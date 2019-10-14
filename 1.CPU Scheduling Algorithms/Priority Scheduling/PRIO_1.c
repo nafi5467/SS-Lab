@@ -36,6 +36,7 @@ void findavgTime( int processes[], int n, int bt[])
 	int s=(float)total_wt / (float)n;
 	int t=(float)total_tat / (float)n;
 	printf("Average waiting time = %d",s);
+	printf("to be deleted");
 	printf("\n");
 	printf("Average turn around time = %d ",t);
 }
