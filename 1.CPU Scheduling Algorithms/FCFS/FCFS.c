@@ -21,6 +21,7 @@ printf("\nprocess\t waitingtime\t turntime\t\n");
 for(i=0;i<n;i++)
 {
 	printf("%d\t%d\t%d\t\n",process[i],wt[i],tat[i]);
+	printf("to be deleted");
 }
 
 	
