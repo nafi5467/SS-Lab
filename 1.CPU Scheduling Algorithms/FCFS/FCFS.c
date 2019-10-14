@@ -87,6 +87,7 @@ printf ("gantt chart\n");
 for(i=0;i<n;i++)
 	{
 		printf("|%d|",process[i]);
+		printf('delete this');
 	}
 findavgtime(process,n,brt,art);//call the function to find average waiting time and average turnaround time
 
